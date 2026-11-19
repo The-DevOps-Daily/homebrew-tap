@@ -2,25 +2,25 @@
 cask "devops-daily" do
   binary "devops-daily", target: "ddy"
 
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "a6b9c23cd360405a3e93b9abce406b1db106fe768292267a448b98b243d76e53"
+      sha256 "a2c7c8f8fd2e25ffe829d3e2c435e39b7223cdd1efd2a56d972c703e2d7708c8"
       url "https://github.com/The-DevOps-Daily/devops-daily-cli/releases/download/v#{version}/devops-daily_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f9ac294b7c77c2fbde471b96a1252fcd591e41b8ae4257d567c56fb3858a902c"
+      sha256 "dff2a9d3631ad27bea42818a7a25403deab9fc127e3cf7132fe6c5a9285e205e"
       url "https://github.com/The-DevOps-Daily/devops-daily-cli/releases/download/v#{version}/devops-daily_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "252a3841ce7da4db38f7f9e7573a7ca7c63bba8cc093f5b2b00540ad54b8b056"
+      sha256 "a0486b9af2f6635a5474834883ae1411deac19e67659e340d5cee137939e2365"
       url "https://github.com/The-DevOps-Daily/devops-daily-cli/releases/download/v#{version}/devops-daily_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "62f908dad1e66bd9be3112ece9c38c88d32aa52f008f867385429e6c2db66196"
+      sha256 "3deb8a4e2b71777bb57b14691c354816869fedca3259e2e55217f0429e9e576b"
       url "https://github.com/The-DevOps-Daily/devops-daily-cli/releases/download/v#{version}/devops-daily_#{version}_linux_amd64.tar.gz"
     end
   end
